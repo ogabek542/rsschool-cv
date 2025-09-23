@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+/* Containers */
+.header_container,
+.main_part,
+.footer_container {
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 0 16px;
+}
+
+/* Header */
+.header_part {
+  background: #111827;
+  color: #f9fafb;
+  padding: 20px 0;
+}
+
+.header_part h1 {
+  margin-top: 12px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/* Navigation */
+.nav_part {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav_ul a {
+  text-decoration: none;
+  color: #f9fafb;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav_ul a:hover {
+  color: #60a5fa;
+}
+
+/* Main sections */
+.main_part {
+  padding: 30px 0;
+}
+.about_text,
+.about_avatar_text {
+  font-weight: 700;
+}
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 4px;
+  color: #111827;
+}
+
+/* About */
+.about_part p {
+  margin-bottom: 12px;
+}
+
+.about_avatar img {
+  max-width: 180px;
+  border-radius: 8px;
+  display: block;
+  margin-top: 12px;
+}
+
+/* Lists */
+ul {
+  list-style: disc inside;
+  padding-left: 16px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1f2937;
+  transition: color 0.3s;
+  font-weight: 700;
+}
+
+/* Skills as grid */
+.skills_part ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+  padding: 0;
+}
+
+.skills_part li {
+  background: #e5e7eb;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Footer */
+.footer_part {
+  background: #111827;
+  color: #f9fafb;
+  padding: 16px 0;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer_container a {
+  color: #f9fafb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer_container a:hover {
+  color: #60a5fa;
+}
+
+.year {
+  opacity: 0.7;
+}
