@@ -9,7 +9,7 @@ Tashkent, Uzbekistan
 **LeetCode:** https://leetcode.com/TODO-your-link  
 **Discord:** TODO_your_discord_nickname
 
-![Photo](/rsschool-cv/assets/img/photo.jpg)
+![Photo](assets/img/photo.jpg)
 
 ---
 
