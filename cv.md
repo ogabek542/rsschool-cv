@@ -4,10 +4,10 @@
 Tashkent, Uzbekistan  
 **Email:** otaxonovo22222@gmail.com | **Phone:** +998941259977  
 **GitHub:** https://github.com/ogabek542  
-**LinkedIn:** https://www.linkedin.com/in/TODO-your-link  
-**HackerRank:** https://www.hackerrank.com/TODO-your-link  
-**LeetCode:** https://leetcode.com/TODO-your-link  
-**Discord:** TODO_your_discord_nickname
+**LinkedIn:** (https://www.linkedin.com/in/ogabek-otaxonov-10b26025b/)  
+**LeetCode:** https://leetcode.com/u/otaxonovo22222/
+**HackerRank:** https://www.codewars.com/users/ogabek21
+**Discord:** ogabek0218
 
 ![Photo](assets/img/photo.jpg)
 
