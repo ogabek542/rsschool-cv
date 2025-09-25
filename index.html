@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>CV OTAKHONOV OGABEK</title>
     <!-- import style.css file -->
-    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <!-- header section -->
@@ -16,6 +15,8 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#codeexample">Code</a></li>
                     <li><a href="#education">Education</a></li>
                 </ul>
             </nav>
@@ -27,10 +28,10 @@
         <!-- about section -->
         <section class="about_part" id="about">
                 <h2>About</h2>
-                <p class="about_text">Motivated developer focused on accessible, performant web apps.</p>
+                <p class="about_text">I am a motivated developer focused on creating accessible, performant web apps.</p>
                 <figure class="about_avatar">
-                    <img src="./assets/img/photo.jpg" alt="avatar_photo">
-                    <figurecaption class="about_avatar_text">Author  Photo</figurecaption>
+                    <img src="./assets/img/photo.jpg" alt="author_photo">
+                    <figcaption class="about_avatar_text">Author  Photo</figcaption>
                 </figure>
         </section>
         <!-- contacts section -->
@@ -67,21 +68,51 @@
                 <li>Figma</li>
             </ul>
         </section>
+              <!-- projects section -->
+      <section class="projects_part" id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://www.mbmbusiness.uz/shop/home" target="_blank" rel="noopener noreferrer">
+              MBM Business Shop (deployed)
+            </a>
+          </li>
+          <li>
+            <a href="https://my-next-app-three-beta.vercel.app/" target="_blank" rel="noopener noreferrer">
+              Next.js Demo App (deployed)
+            </a>
+          </li>
+        </ul>
+      </section>
+          <!-- code example section -->
+      <section class="code_part" id="codeexample">
+        <h2>Code Example</h2>
+        <pre><code class="language-js">
+            // Simple utility to format a user's name
+            function formatName(user) {
+            const first = (user.firstName || "").trim();
+            const last = (user.lastName || "").trim();
+            return [first, last].filter(Boolean).join(" ");
+            }
+            console.log(formatName({ firstName: "Ogabek", lastName: "Otakhonov" })); // "Ogabek Otakhonov"
+                    </code></pre>
+      </section>
         <!-- education section -->
         <section>
             <h2>Education</h2>
             <ul>
-                <li><a href="https://rs.school/js/">RS School</a></li>
+                <li>English: B2 (IELTS 5.5, expired) — Certificate: 22UZ001352OTAO004A</li>
+                <li><a href="https://app.rs.school/profile">RS School</a></li>
             </ul>
         </section>
     </main>
     <!-- footer section -->
     <footer class="footer_part">
         <div class="footer_container">
-                <a href="https://github.com/ogabek542" target="_blank" rel="noopener noreferrer">Otakhonov Ogabek</a><span class="year">2025</span>
+                <a href="https://github.com/ogabek542" target="_blank" rel="noopener noreferrer">Otakhonov Ogabek</a><span class="year">2023</span>
                     <a href="https://rs.school/courses/short-track" class="rs-link" target="_blank" rel="noopener noreferrer">
-        <img src="./assets/img/rs-school-logo.svg" alt="RS School logo" width="80" height="24" />
-      </a>
+                   <img src="./assets/img/rs-school-logo.svg" alt="RS School logo" width="80" height="24" />
+                </a>
         </div>
     </footer>
   </body>
